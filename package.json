@@ -1,0 +1,30 @@
+{
+  "name": "theme-studio",
+  "version": "1.0.0",
+  "description": "静态网站主题编辑器：可视化调色、实时预览、保存即重建，零依赖",
+  "main": "editor.js",
+  "bin": {
+    "theme-studio": "editor.js"
+  },
+  "scripts": {
+    "start": "node editor.js"
+  },
+  "keywords": [
+    "static-site",
+    "theme",
+    "color-picker",
+    "editor",
+    "blog",
+    "chinese"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "editor.js",
+    "ui.html",
+    "README.md",
+    "LICENSE"
+  ]
+}
